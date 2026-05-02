@@ -4,3 +4,10 @@
 
 DevOps Pipeline
 
+
+
+Docker Container:
+To run the Docker container, type "docker build -t devops-hello ."
+
+followed by "docker run devops-hello"
+
