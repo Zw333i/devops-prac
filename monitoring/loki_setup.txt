@@ -1,0 +1,9 @@
+Loki Setup Notes
+
+1. How I started Loki:
+I used Docker on Windows to run the Loki container:
+docker run -d --name loki -p 3100:3100 grafana/loki:latest
+
+2. Viewing Logs:
+Because it is running in Docker, I verified the logs by running:
+docker logs loki
