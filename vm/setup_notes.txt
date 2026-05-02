@@ -1,0 +1,10 @@
+VirtualBox VM Extra Credit Setup
+
+1. I downloaded the Ubuntu Server ISO and created a new VM in VirtualBox.
+2. I allocated 2GB of RAM and 2 CPU cores to the VM.
+3. After installing Ubuntu, I logged in and installed Docker using: 
+   `sudo apt-get update && sudo apt-get install docker.io -y`
+4. I successfully ran the Python container inside the Linux VM using:
+   `sudo docker run python:3.9-slim python -c "print('Hello, DevOps from inside VirtualBox!')"`
+
+A screenshot of the successful run is included in this folder : )
